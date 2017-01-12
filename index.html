@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <span id="home"></span>
+    <!-- Navigation -->
+    <ul id="topnav" class="navbar">
+      <li><a id="imglink" href="#home"><img src="images/logo.png" alt="logo"></a></li>
+      <li class="active"><a href="#home" onclick="closenav()">HOME</a></li>
+      <li><a href="#about" onclick="closenav()">ABOUT</a></li>
+      <li><a href="#services" onclick="closenav()">SERVICES</a></li>
+      <li><a href="#reviews" onclick="closenav()">REVIEWS</a></li>
+      <li><a href="#contact" onclick="closenav()">CONTACT</a></li>
+      <li class="icon">
+        <a href="javascript:void(0);" onclick="opennav()">&#9776;</a>
+      </li>
+    </ul>
+    
+    <!-- Slideshow -->
+    <div class="slideshowContainer">
+      
+      <div class="mySlides myFade">
+        <img src="images/slider-image-1.png">
+      </div>
+      <div class="mySlides myFade">
+        <img src="images/slider-image-2.png">
+      </div>
+      <div class="mySlides myFade">
+        <img src="images/slider-image-3.png">
+      </div>
+      
+      <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlide(1)">&#10095;</a>
+      
+      <div class="dotsContainer">
+        <span class="dot currentDot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      
+    </div>
+    
+    <!-- Banner -->
+    <section class="banner-wrapper">
+      <span id="about"></span>
+      <h1>WELCOME TO OUR WEBSITE</h1>
+      <div class="half">
+        <h3>HEADING TITLE</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum veniam voluptatem unde doloribus magni incidunt voluptatum quo ipsam ad voluptates sunt molestias ea temporibus, distinctio vitae perspiciatis fugit numquam quisquam neque placeat ipsa suscipit! Dolores suscipit atque cupiditate autem, eos expedita molestias. Maiores hic nihil labore, corporis esse earum inventore.</p>
+      </div>
+      <div class="half">
+        <h3>HEADING TITLE</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum veniam voluptatem unde doloribus magni incidunt voluptatum quo ipsam ad voluptates sunt molestias ea temporibus, distinctio vitae perspiciatis fugit numquam quisquam neque placeat ipsa suscipit! Dolores suscipit atque cupiditate autem, eos expedita molestias. Maiores hic nihil labore, corporis esse earum inventore.</p>
+      </div>
+    </section>
+    
+    <div class="clearfix"></div>
+    
+    <!-- Paralax -->
+    <section class="parallax-section1">
+      <div class="parallax-inner">
+        <div class="third">
+          <h3>HEADING TITLE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed illo quos labore, facere quam commodi voluptatibus, pariatur dicta. Libero quaerat quasi quibusdam provident repudiandae, sequi atque architecto mollitia. Nisi, accusamus!</p>
+        </div>
+        <div class="third">
+          <h3>HEADING TITLE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed illo quos labore, facere quam commodi voluptatibus, pariatur dicta. Libero quaerat quasi quibusdam provident repudiandae, sequi atque architecto mollitia. Nisi, accusamus!</p>
+        </div>
+        <div class="third">
+          <h3>HEADING TITLE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed illo quos labore, facere quam commodi voluptatibus, pariatur dicta. Libero quaerat quasi quibusdam provident repudiandae, sequi atque architecto mollitia. Nisi, accusamus!</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Banner -->
+    <section class="left-col">
+      <span id="services"></span>
+      <h1>HEADING TITLE</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fuga quam ducimus fugit nobis, architecto, ipsam? Suscipit dolorem numquam obcaecati corporis rem, natus exercitationem delectus. Nisi at expedita nam iure reprehenderit iusto quos tempora, sit in nostrum, rem repellat libero laboriosam impedit ad quo unde exercitationem consectetur numquam, accusantium dolore.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, explicabo culpa voluptatum asperiores quas sequi doloribus! Harum nisi consequuntur hic facilis at quidem inventore illum quia. Odit rerum similique magnam, voluptate expedita, culpa ipsum quae labore ullam ex unde sunt? Accusantium itaque esse quasi aliquid laudantium tempora, minima ducimus non totam quisquam, ex error facilis delectus rem eligendi nulla animi exercitationem id cumque! Reiciendis laborum et asperiores natus veritatis dicta vitae nisi labore quisquam officiis! Ad iusto saepe praesentium, suscipit nemo at asperiores odio quia magni maxime ab alias neque laborum adipisci molestias aperiam ipsa qui earum tempore soluta sequi.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, cumque amet molestias dolor sint. Totam quasi minima, dicta voluptate facilis, voluptatem voluptatum beatae eveniet, cupiditate eaque quas non ipsum. Quaerat totam impedit esse incidunt omnis, aspernatur consequatur at laboriosam consectetur, earum facere expedita distinctio! Quasi eaque dolores tempore reiciendis natus mollitia odio magnam provident, numquam commodi vitae repellendus dicta itaque placeat eveniet sed quam deleniti vero! Vero nobis, nam repellat!</p>
+    </section>
+    
+    <aside class="sidebar">
+      <img src="images/beach-building.jpg" alt="building">
+    </aside>
+    
+    <div class="clearfix"></div>
+    
+    <!-- Paralax -->
+    <section class="parallax-section2">
+      <div class="parallax-inner">
+        <div class="third">
+          <h3>HEADING TITLE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed illo quos labore, facere quam commodi voluptatibus, pariatur dicta. Libero quaerat quasi quibusdam provident repudiandae, sequi atque architecto mollitia. Nisi, accusamus!</p>
+        </div>
+        <div class="third">
+          <h3>HEADING TITLE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed illo quos labore, facere quam commodi voluptatibus, pariatur dicta. Libero quaerat quasi quibusdam provident repudiandae, sequi atque architecto mollitia. Nisi, accusamus!</p>
+        </div>
+        <div class="third">
+          <h3>HEADING TITLE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed illo quos labore, facere quam commodi voluptatibus, pariatur dicta. Libero quaerat quasi quibusdam provident repudiandae, sequi atque architecto mollitia. Nisi, accusamus!</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Banner -->
+    <section class="banner-wrapper">
+      <span id="reviews"></span>
+      <h1>FULL WIDTH HEADING TITLE</h1>
+      <div class="third">
+        <img src="images/beach-camera.png" alt="camera">
+        <h3>HEADING TITLE</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem rem quia vel ab sit libero quae deleniti molestias consectetur sapiente nulla distinctio, voluptatum. Rerum rem magnam dolorum, dignissimos cumque ipsa.</p>
+      </div>
+      <div class="third">
+        <img src="images/girl-camera.png" alt="camera">
+        <h3>HEADING TITLE</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem rem quia vel ab sit libero quae deleniti molestias consectetur sapiente nulla distinctio, voluptatum. Rerum rem magnam dolorum, dignissimos cumque ipsa.</p>
+      </div>
+      <div class="third">
+        <img src="images/girl-beach.png" alt="camera">
+        <h3>HEADING TITLE</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem rem quia vel ab sit libero quae deleniti molestias consectetur sapiente nulla distinctio, voluptatum. Rerum rem magnam dolorum, dignissimos cumque ipsa.</p>
+      </div>
+    </section>
+    
+    <div class="clearfix"></div>
+    
+    <footer>
+      <span id="contact"></span>
+      <p>&copy; 2016 Parallax</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+  </body>
+</html>
